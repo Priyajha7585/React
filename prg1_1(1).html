@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <img src="https://i.redd.it/0bb6dqsiab451.gif" height="500px" width="80%" id="bigImage"><br />
+
+    <img src="https://thumbs.gfycat.com/PrestigiousMatureHusky-size_restricted.gif" height="250px" width="20%" onmouseover="changeImage(this.src)">
+    <img src="https://i.pinimg.com/originals/04/4a/1f/044a1f82029125622f3eb0abb9a6735e.gif" height="250px" width="20%" onmouseover="changeImage(this.src)">
+    <img src="https://c.tenor.com/Jb9-VB71xDkAAAAM/aesthetic-my-view.gif" height="250px" width="20%" onmouseover="changeImage(this.src)">
+    <img src="https://i.redd.it/0bb6dqsiab451.gif" height="250px" width="20%" onmouseover="changeImage(this.src)">
+    
+    <h1 id="text1">Please subscribe to my channel!!!</h1>
+    <button id="btn1" style="background-color: red; height: 30px; width: 100px;" onclick="thanks()">SUBSCRIBE</button>
+    </center>
+</body>
+<script>
+    var element = document.getElementById('bigImage');
+    function changeImage(src)
+    {
+        element.src = src;
+    }
+    var text1 = document.getElementById("text1");
+    var btn1 = document.getElementById("btn1");
+    function thanks()
+    {
+        text1.innerHTML = "Thanks for subscribing!!!";
+        btn1.style.backgroundColor = "blue";
+    }
+</script>
+</html>

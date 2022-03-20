@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <script type="text/babel">
+      function Student(props)
+      {
+        return (
+            <h1>
+                Hello {props.name}, {props.age}, {props.children}!!!
+            </h1>
+          );
+      }
+      function SayHello()
+      {
+          return (
+              <div>
+                <Student name="Priya1" age="21" >This is the first child</Student>
+                <Student name="Priya2" age="21" >This is the second child</Student>
+                <Student name="Priya3" age="21" >This is the third child</Student>
+              </div>
+          )
+      }
+      ReactDOM.render(<SayHello />, document.getElementById("root"));
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Package.json Contain all the dependencies and commands of application

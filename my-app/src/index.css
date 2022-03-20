@@ -1,0 +1,51 @@
+.text-color{
+  color: blue;
+}
+.layout{
+  height: 450px;
+}
+.header, .footer{
+  height: 150px;
+}
+
+.banner-one{
+  background-image: url("https://images.unsplash.com/photo-1619441207978-3d326c46e2c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.banner-two{
+  background-image: url("https://images.unsplash.com/photo-1586521995568-39abaa0c2311?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.banner-three{
+  background-image: url("https://images.unsplash.com/photo-1610552050890-fe99536c2615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=907&q=80");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.menu li {
+  display: inline-block;
+  /* border: 1px solid; */
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px hotpink;
+}
+
+.menu li:hover {
+  box-shadow: 1px 1px 3px red;
+  color: red;
+}
+
+.menu li a,
+.menu li a:visited {
+  text-decoration: none;
+  color: hotpink;
+}
+
+html {
+  scroll-behavior: smooth;
+}
