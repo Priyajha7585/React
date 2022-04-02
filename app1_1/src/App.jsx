@@ -6,8 +6,8 @@ import Banner2 from './Layouts/Banner2/Banner2';
 import Banner3 from './Layouts/Banner3/Banner3';
 import Product from './Layouts/Product/Product';
 import Contact_us from './Layouts/ContactUs/Contact_us';
-import Catalogues from './Catalogues/Catalogues';
-import Catalogue1 from './Catalogue1/Catalogue1';
+import Catalogues from './Layouts/Catalogues/Catalogues';
+import Catalogue1 from './Layouts/Catalogue1/Catalogue1';
 import Footer from './Layouts/Footer/Footer';
 
 function App() {
